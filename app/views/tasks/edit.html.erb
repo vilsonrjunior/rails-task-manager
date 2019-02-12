@@ -1,4 +1,6 @@
-<h1>Edit task</h1>
+<div class="container">
+
+  <h2>Edit task</h2>
 
 <%= form_for(@task) do |f| %>
   <div class="form-group">
@@ -20,5 +22,6 @@
 
 <% end %>
 
-<p><i class="fas fa-undo-alt"></i><%= link_to "Back to list", tasks_path %></p>
 
+<p><i class="fas fa-undo-alt"></i><%= link_to "Back to list", tasks_path %></p>
+</div>

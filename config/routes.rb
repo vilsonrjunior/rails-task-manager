@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   patch 'tasks/:id', to: 'tasks#update'
   get 'tasks/:id/edit', to: 'tasks#edit', as: :edit
   delete 'tasks/:id', to: 'tasks#destroy'
+  # resources :tasks #Check this
 end
 
 
